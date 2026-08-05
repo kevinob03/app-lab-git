@@ -46,3 +46,10 @@ button:hover{
     gap: 10px;
     margin-bottom: 20px;
 }
+
+/* lista de tareas */
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
