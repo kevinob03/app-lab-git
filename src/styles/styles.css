@@ -21,7 +21,7 @@ h1{
 }
 /* estilo input */
 input{
-    width: 70%;
+    flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -39,4 +39,10 @@ button{
 
 button:hover{
     background-color: #45a049;
+}
+
+.form-tarea{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
 }
