@@ -5,3 +5,11 @@ const lista = document.querySelector("ul");
 console.log(formulario);
 console.log(input);
 console.log(lista);
+
+
+formulario.addEventListener("submit", function(evento) {
+    evento.preventDefault();
+
+    console.log("Formulario enviado");
+});
+
