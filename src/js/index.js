@@ -6,10 +6,13 @@ console.log(formulario);
 console.log(input);
 console.log(lista);
 
-
-formulario.addEventListener("submit", function(evento) {
+formulario.addEventListener("submit", function(evento){
     evento.preventDefault();
 
-    console.log("Formulario enviado");
-});
+    const tarea = input.value;
+  const nuevaTarea = document.createElement("li");
 
+    nuevaTarea.textContent = tarea;
+
+    lista.appendChild(nuevaTarea);
+});
